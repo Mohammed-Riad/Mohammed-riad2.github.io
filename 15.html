@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="15.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section >
+        <div class="container">
+            <div class="navbar">
+                <img class="logo"src="img/logo.png" alt="" >
+                <nav class="nav">
+                    <ul id="menulist">
+
+                   <a href=""> <li>Game Controllers</li></a>
+                   <a href=""> <li>VR Accessories</li></a>
+                     <a href=""><li>Media Remotes</li></a>
+                   <a href=""> <li>Others</li></a>
+
+                    </ul>
+                </nav>
+                <img class="menu-icon" src="img/menu.png" alt="" onclick="togglemenu()">
+            </div>
+        
+
+        <div class="row">
+            <div class="col-1">
+                <h2>Ps4 V2 <br> Dualshock 4 </h2>
+                <h3>Wireless Controller For Playstation 4</h3>
+                <p>(Compatible/Generic)</p>
+                <h4>32.50</h4><br>
+                <button>Bay Now <img src="img/arrow.png" alt="" ></button>
+            </div>
+            <div class="col-2">
+                <img src="img/controller.png" alt="" class="con">
+                <div class="color-box"></div>
+                <div class="add-btn"><img src="img/add.png" alt="">
+                    <p><small>Add To Cart</small></p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="social">
+            <img src="img/tw.png" alt="">
+            <img src="img/fb.png" alt="">
+            <img src="img/ig.png" alt="">
+      
+        </div>
+    </div>
+    </section>
+    <script>
+        var list=document.getElementById("menulist") 
+
+        list.style.maxHeight="0px";
+
+        function togglemenu()
+        {
+            if(list.style.maxHeight == "0px")
+            {
+                list.style.maxHeight="130px"
+            }else
+            {
+                list.style.maxHeight="0px"
+            }
+        }
+    </script>
+</body>
+</html>
